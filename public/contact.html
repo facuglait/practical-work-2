@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="../css/styles.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="navbar">
+    <div class="brand">
+      <strong>Facundo Glait</strong>
+      <small>Practical Work II</small>
+    </div>
+    <nav aria-label="Primary navigation">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="topic.html">Topic</a></li>
+        <li><a href="net.html">Net</a></li>
+        <li><a href="degree.html">Degree</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="card">
+    <h1>Contact</h1>
+    <p style="color:var(--muted);">
+      This form is UI-only and does not send or store information (no scripting).
+    </p>
+
+    <form action="#" method="post">
+      <div>
+        <label for="name">Full name</label>
+        <input id="name" name="name" type="text" required placeholder="Your name" />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required placeholder="you@example.com" />
+      </div>
+
+      <div>
+        <label for="reason">Reason</label>
+        <select id="reason" name="reason" required>
+          <option value="" selected disabled>Choose one</option>
+          <option value="question">Question</option>
+          <option value="collaboration">Collaboration</option>
+          <option value="feedback">Feedback</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Write your message..."></textarea>
+      </div>
+
+      <button type="submit">Send message</button>
+    </form>
+  </section>
+
+  <footer><p>© 2025 Your Name</p></footer>
+</main>
+
+</body>
+</html>
