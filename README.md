@@ -31,4 +31,4 @@ It showcases my learning progress and presents information about me, my degree p
 This project improved my ability to structure multi-page sites, write semantic HTML, create a shared CSS stylesheet, and deploy using GitHub Pages.
 
 ## Deployment
-GitHub Pages URL: (paste your URL here)
+GitHub Pages URL: https://facuglait.github.io/practical-work-2/
